@@ -11,7 +11,7 @@ struct NewsListingView: View {
     var body: some View {
         ScrollView(.vertical){
             ForEach(0..<10) {
-                _ in LisitngItem()
+                _ in LisitngItem(viewModel: NewsListingLatestArticlesVM())
             }
             .padding(.vertical,10)
           

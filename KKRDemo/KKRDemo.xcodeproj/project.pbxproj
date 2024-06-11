@@ -32,6 +32,10 @@
 		81CC42B22C0DA07200F6C176 /* KKRDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CC42B12C0DA07200F6C176 /* KKRDemoApp.swift */; };
 		81CC42B42C0DA07200F6C176 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CC42B32C0DA07200F6C176 /* ContentView.swift */; };
 		81CC42B92C0DA07300F6C176 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81CC42B82C0DA07300F6C176 /* Preview Assets.xcassets */; };
+		81FF8BCF2C183AA50051774E /* NewsListingLatestArticlesVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FF8BCE2C183AA50051774E /* NewsListingLatestArticlesVM.swift */; };
+		81FF8BD12C183C700051774E /* SIFeedsListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FF8BD02C183C700051774E /* SIFeedsListing.swift */; };
+		81FF8BD32C183D340051774E /* SIFeedsEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FF8BD22C183D340051774E /* SIFeedsEnums.swift */; };
+		81FF8BE52C186FA30051774E /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FF8BE42C186FA30051774E /* ServiceManager.swift */; };
 		81FFD0C32C1049D00021035A /* DottedLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FFD0792C1049D00021035A /* DottedLineView.swift */; };
 		81FFD0D02C104AA70021035A /* login.html in Resources */ = {isa = PBXBuildFile; fileRef = 81FFD0C42C104AA70021035A /* login.html */; };
 		81FFD0D12C104AA70021035A /* recaptcha.html in Resources */ = {isa = PBXBuildFile; fileRef = 81FFD0C52C104AA70021035A /* recaptcha.html */; };
@@ -70,6 +74,10 @@
 		81CC42B12C0DA07200F6C176 /* KKRDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKRDemoApp.swift; sourceTree = "<group>"; };
 		81CC42B32C0DA07200F6C176 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		81CC42B82C0DA07300F6C176 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81FF8BCE2C183AA50051774E /* NewsListingLatestArticlesVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListingLatestArticlesVM.swift; sourceTree = "<group>"; };
+		81FF8BD02C183C700051774E /* SIFeedsListing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIFeedsListing.swift; sourceTree = "<group>"; };
+		81FF8BD22C183D340051774E /* SIFeedsEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIFeedsEnums.swift; sourceTree = "<group>"; };
+		81FF8BE42C186FA30051774E /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
 		81FFD0792C1049D00021035A /* DottedLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DottedLineView.swift; sourceTree = "<group>"; };
 		81FFD0C42C104AA70021035A /* login.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = login.html; sourceTree = "<group>"; };
 		81FFD0C52C104AA70021035A /* recaptcha.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = recaptcha.html; sourceTree = "<group>"; };
@@ -126,6 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				817BD2F12C16A02D00338348 /* DummyModel.swift */,
+				81FF8BD02C183C700051774E /* SIFeedsListing.swift */,
+				81FF8BD22C183D340051774E /* SIFeedsEnums.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -150,6 +160,7 @@
 		817BD2FE2C16A02D00338348 /* News */ = {
 			isa = PBXGroup;
 			children = (
+				81FF8BCD2C183A7B0051774E /* ViewModel */,
 				817BD2F22C16A02D00338348 /* Model */,
 				817BD2FD2C16A02D00338348 /* Views */,
 			);
@@ -177,6 +188,7 @@
 		81CC42A52C0DA07200F6C176 = {
 			isa = PBXGroup;
 			children = (
+				81FF8BE42C186FA30051774E /* ServiceManager.swift */,
 				8131FD692C16A44000A4AD33 /* CustomFonts.swift */,
 				81FFD07A2C1049D00021035A /* App Utils */,
 				81A029A12C0F5007005623C5 /* Extension */,
@@ -211,6 +223,14 @@
 				81CC42B82C0DA07300F6C176 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81FF8BCD2C183A7B0051774E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				81FF8BCE2C183AA50051774E /* NewsListingLatestArticlesVM.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		81FFD07A2C1049D00021035A /* App Utils */ = {
@@ -330,6 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81FF8BCF2C183AA50051774E /* NewsListingLatestArticlesVM.swift in Sources */,
 				817BD3092C16A02D00338348 /* NewsItem.swift in Sources */,
 				817BD3072C16A02D00338348 /* ListingView.swift in Sources */,
 				81FFD0D32C104AA70021035A /* ReCaptchaVM.swift in Sources */,
@@ -341,6 +362,7 @@
 				81FFD0D42C104AA70021035A /* CommonEnums.swift in Sources */,
 				81FFD0D22C104AA70021035A /* ReCaptchaVC.swift in Sources */,
 				817BD30F2C16A02D00338348 /* WKWebView.swift in Sources */,
+				81FF8BD12C183C700051774E /* SIFeedsListing.swift in Sources */,
 				813DE4092C170F8B00976688 /* NewsViews.swift in Sources */,
 				817BD3062C16A02D00338348 /* LisitngItem.swift in Sources */,
 				813DE4072C16FD6D00976688 /* VideoesView.swift in Sources */,
@@ -351,11 +373,13 @@
 				81FFD0D52C104AA70021035A /* CommonImagePicker.swift in Sources */,
 				817BD30D2C16A02D00338348 /* PageViewController.swift in Sources */,
 				81CC42B22C0DA07200F6C176 /* KKRDemoApp.swift in Sources */,
+				81FF8BD32C183D340051774E /* SIFeedsEnums.swift in Sources */,
 				817BD3012C16A02D00338348 /* Fixtures.swift in Sources */,
 				817BD30B2C16A02D00338348 /* PageControl.swift in Sources */,
 				817BD3052C16A02D00338348 /* DummyModel.swift in Sources */,
 				817BD30A2C16A02D00338348 /* NewsListingView.swift in Sources */,
 				817BD3082C16A02D00338348 /* NewsDetailsView.swift in Sources */,
+				81FF8BE52C186FA30051774E /* ServiceManager.swift in Sources */,
 				81FFD0D72C104AA70021035A /* CommonUtilities+Redirections.swift in Sources */,
 				81A029C32C0F5007005623C5 /* Font+Ext.swift in Sources */,
 				813DE4012C16DD2E00976688 /* FixturesLargeView.swift in Sources */,
