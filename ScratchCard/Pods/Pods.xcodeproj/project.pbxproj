@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0360754CBFE3E1F897AF68D4276E6D07 /* Pods-ScratchCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BACE654AF12DCE11AABEB42B59AEA0CD /* Pods-ScratchCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		489C2549F3E8D562A593CCB159FEF223 /* ScratchUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCAE6810B5244C5E1074A70A6E90B7F /* ScratchUIView.swift */; };
+		5FE066A44EDEA9C8C3A7DD41295B26D6 /* ScratchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C49539185E895A3D91FA5C61E02C347 /* ScratchView.swift */; };
+		8C1EDEE353C90934BEB29678AAED180F /* ScratchCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8D3A3BD65F27FD5A361299BB4135A6E /* ScratchCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB636212435AF3BD2286E61A0C732AB9 /* Pods-ScratchCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F971ACCBCBF8AF3367766354ED2EA687 /* Pods-ScratchCard-dummy.m */; };
+		C3F89EC4CB9F08764DECE313550025B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E788EB97CF554E9DFFA7F09D9780364F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EC4308351772B7C250FB80F5B45154EA /* ScratchCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B263E6922B87F5E658DDF7E829F3293 /* ScratchCard-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11323CFF8462E846B6E3E2A4E5A93CC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D811DA9C7BD5A5D168B58BFA2DB4F992;
+			remoteInfo = ScratchCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FCAE6810B5244C5E1074A70A6E90B7F /* ScratchUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScratchUIView.swift; path = ScratchCard/ScratchUIView.swift; sourceTree = "<group>"; };
+		11620E5A923706DF1F7064B48C096FB5 /* Pods-ScratchCard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScratchCard-Info.plist"; sourceTree = "<group>"; };
+		1B0F930F03571F60E438863B566A6473 /* ScratchCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScratchCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		251A736AC19C5D0C0F09CE9784DE1F84 /* ScratchCard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ScratchCard-Info.plist"; sourceTree = "<group>"; };
+		42306312320AFEF04295EAEAD5D1B9B6 /* ScratchCard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScratchCard-prefix.pch"; sourceTree = "<group>"; };
+		6B263E6922B87F5E658DDF7E829F3293 /* ScratchCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScratchCard-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C49749CE6232F8E96E422692ADA845C /* Pods-ScratchCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScratchCard.debug.xcconfig"; sourceTree = "<group>"; };
+		83205F4A906C7E6B98B4EB1EFEAAA338 /* Pods-ScratchCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScratchCard.modulemap"; sourceTree = "<group>"; };
+		8A96AFA9DA01742C021E4A76EDB26DEE /* ScratchCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScratchCard.debug.xcconfig; sourceTree = "<group>"; };
+		8C49539185E895A3D91FA5C61E02C347 /* ScratchView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScratchView.swift; path = ScratchCard/ScratchView.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E3F370776F69322C0F647E4C8F2192E /* ScratchCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScratchCard.release.xcconfig; sourceTree = "<group>"; };
+		A8D3A3BD65F27FD5A361299BB4135A6E /* ScratchCard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScratchCard-umbrella.h"; sourceTree = "<group>"; };
+		B8CD15E00C69DB6C44F68857BA9D1020 /* Pods-ScratchCard-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScratchCard-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BACE654AF12DCE11AABEB42B59AEA0CD /* Pods-ScratchCard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScratchCard-umbrella.h"; sourceTree = "<group>"; };
+		CC2BD9B53DC344077E76761825B6D9A0 /* Pods-ScratchCard */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ScratchCard"; path = Pods_ScratchCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E8506D1D11EA381D6052F65395A9AA /* ScratchCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScratchCard.modulemap; sourceTree = "<group>"; };
+		DC6F27A2A8B994A79206865123F8E9A5 /* Pods-ScratchCard-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScratchCard-acknowledgements.plist"; sourceTree = "<group>"; };
+		EE01FD93CB4AF832FB046A845927AB06 /* Pods-ScratchCard-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScratchCard-frameworks.sh"; sourceTree = "<group>"; };
+		EE62DA6D6D59964920A6EE605574F805 /* Pods-ScratchCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScratchCard.release.xcconfig"; sourceTree = "<group>"; };
+		F971ACCBCBF8AF3367766354ED2EA687 /* Pods-ScratchCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScratchCard-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		096BDD1F438C315343D04BFADF422AAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E788EB97CF554E9DFFA7F09D9780364F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E1F7D324BA73602F91D2CE57023E49D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F89EC4CB9F08764DECE313550025B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		006C25E30187383CB49D6E1643573A46 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5E8506D1D11EA381D6052F65395A9AA /* ScratchCard.modulemap */,
+				6B263E6922B87F5E658DDF7E829F3293 /* ScratchCard-dummy.m */,
+				251A736AC19C5D0C0F09CE9784DE1F84 /* ScratchCard-Info.plist */,
+				42306312320AFEF04295EAEAD5D1B9B6 /* ScratchCard-prefix.pch */,
+				A8D3A3BD65F27FD5A361299BB4135A6E /* ScratchCard-umbrella.h */,
+				8A96AFA9DA01742C021E4A76EDB26DEE /* ScratchCard.debug.xcconfig */,
+				9E3F370776F69322C0F647E4C8F2192E /* ScratchCard.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ScratchCard";
+			sourceTree = "<group>";
+		};
+		01BB4A42183A325A227737822CF7C6B6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C95774B7AEE89BE968861DD6AF8E9DD /* Pods-ScratchCard */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0C95774B7AEE89BE968861DD6AF8E9DD /* Pods-ScratchCard */ = {
+			isa = PBXGroup;
+			children = (
+				83205F4A906C7E6B98B4EB1EFEAAA338 /* Pods-ScratchCard.modulemap */,
+				B8CD15E00C69DB6C44F68857BA9D1020 /* Pods-ScratchCard-acknowledgements.markdown */,
+				DC6F27A2A8B994A79206865123F8E9A5 /* Pods-ScratchCard-acknowledgements.plist */,
+				F971ACCBCBF8AF3367766354ED2EA687 /* Pods-ScratchCard-dummy.m */,
+				EE01FD93CB4AF832FB046A845927AB06 /* Pods-ScratchCard-frameworks.sh */,
+				11620E5A923706DF1F7064B48C096FB5 /* Pods-ScratchCard-Info.plist */,
+				BACE654AF12DCE11AABEB42B59AEA0CD /* Pods-ScratchCard-umbrella.h */,
+				7C49749CE6232F8E96E422692ADA845C /* Pods-ScratchCard.debug.xcconfig */,
+				EE62DA6D6D59964920A6EE605574F805 /* Pods-ScratchCard.release.xcconfig */,
+			);
+			name = "Pods-ScratchCard";
+			path = "Target Support Files/Pods-ScratchCard";
+			sourceTree = "<group>";
+		};
+		3FBCAD98CA360D007FEDA1C4B8C8299D /* ScratchCard */ = {
+			isa = PBXGroup;
+			children = (
+				0FCAE6810B5244C5E1074A70A6E90B7F /* ScratchUIView.swift */,
+				8C49539185E895A3D91FA5C61E02C347 /* ScratchView.swift */,
+				006C25E30187383CB49D6E1643573A46 /* Support Files */,
+			);
+			path = ScratchCard;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8C1BF24A67328C8F7681CD9B520A47FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC2BD9B53DC344077E76761825B6D9A0 /* Pods-ScratchCard */,
+				1B0F930F03571F60E438863B566A6473 /* ScratchCard.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A058EAE4CF2BD68A10B5191CA0F162F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FBCAD98CA360D007FEDA1C4B8C8299D /* ScratchCard */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A058EAE4CF2BD68A10B5191CA0F162F9 /* Pods */,
+				8C1BF24A67328C8F7681CD9B520A47FC /* Products */,
+				01BB4A42183A325A227737822CF7C6B6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4D4A6CF06ADFAB1766E82985B575234F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1EDEE353C90934BEB29678AAED180F /* ScratchCard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E9262B055102D266E21688B2A1907C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0360754CBFE3E1F897AF68D4276E6D07 /* Pods-ScratchCard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D811DA9C7BD5A5D168B58BFA2DB4F992 /* ScratchCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E80F536E7338EE418D38206CDF2A8C1F /* Build configuration list for PBXNativeTarget "ScratchCard" */;
+			buildPhases = (
+				4D4A6CF06ADFAB1766E82985B575234F /* Headers */,
+				214BEFBB69C45F1B26C2F15A21A5FDDC /* Sources */,
+				096BDD1F438C315343D04BFADF422AAF /* Frameworks */,
+				EAF482733BA41A7EBCA84B427EAB141B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScratchCard;
+			productName = ScratchCard;
+			productReference = 1B0F930F03571F60E438863B566A6473 /* ScratchCard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDF8D9A6988509A43E88545D381DE66F /* Pods-ScratchCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FB69C59C1E3C6DEE4D9ADF65C22F2C3 /* Build configuration list for PBXNativeTarget "Pods-ScratchCard" */;
+			buildPhases = (
+				63E9262B055102D266E21688B2A1907C /* Headers */,
+				B36D0570B8D2F6547C06A55F5E9082DA /* Sources */,
+				4E1F7D324BA73602F91D2CE57023E49D /* Frameworks */,
+				0DEA9BA25EA99A9A10D4C2E3EA0A99F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEC37D5889CAA55208937695266D28B7 /* PBXTargetDependency */,
+			);
+			name = "Pods-ScratchCard";
+			productName = Pods_ScratchCard;
+			productReference = CC2BD9B53DC344077E76761825B6D9A0 /* Pods-ScratchCard */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8C1BF24A67328C8F7681CD9B520A47FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDF8D9A6988509A43E88545D381DE66F /* Pods-ScratchCard */,
+				D811DA9C7BD5A5D168B58BFA2DB4F992 /* ScratchCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DEA9BA25EA99A9A10D4C2E3EA0A99F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF482733BA41A7EBCA84B427EAB141B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		214BEFBB69C45F1B26C2F15A21A5FDDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4308351772B7C250FB80F5B45154EA /* ScratchCard-dummy.m in Sources */,
+				489C2549F3E8D562A593CCB159FEF223 /* ScratchUIView.swift in Sources */,
+				5FE066A44EDEA9C8C3A7DD41295B26D6 /* ScratchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36D0570B8D2F6547C06A55F5E9082DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB636212435AF3BD2286E61A0C732AB9 /* Pods-ScratchCard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEC37D5889CAA55208937695266D28B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ScratchCard;
+			target = D811DA9C7BD5A5D168B58BFA2DB4F992 /* ScratchCard */;
+			targetProxy = 11323CFF8462E846B6E3E2A4E5A93CC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39F5B7CD9D2655A0D1F7D42E37920E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7B7432B80639EADC84B3602877D5E58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A96AFA9DA01742C021E4A76EDB26DEE /* ScratchCard.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScratchCard/ScratchCard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScratchCard/ScratchCard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ScratchCard/ScratchCard.modulemap";
+				PRODUCT_MODULE_NAME = ScratchCard;
+				PRODUCT_NAME = ScratchCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9689D142319A95A6F7D7ECBF3348BBF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E3F370776F69322C0F647E4C8F2192E /* ScratchCard.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScratchCard/ScratchCard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScratchCard/ScratchCard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ScratchCard/ScratchCard.modulemap";
+				PRODUCT_MODULE_NAME = ScratchCard;
+				PRODUCT_NAME = ScratchCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5905D7A58F7D181F1AA86B1286D8929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C49749CE6232F8E96E422692ADA845C /* Pods-ScratchCard.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScratchCard/Pods-ScratchCard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScratchCard/Pods-ScratchCard.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C873D3C071BDDC046D6E8F63C69C2591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FA07BEC9431C8AC0D7DCE40D0618EDE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE62DA6D6D59964920A6EE605574F805 /* Pods-ScratchCard.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScratchCard/Pods-ScratchCard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScratchCard/Pods-ScratchCard.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F5B7CD9D2655A0D1F7D42E37920E8B /* Debug */,
+				C873D3C071BDDC046D6E8F63C69C2591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FB69C59C1E3C6DEE4D9ADF65C22F2C3 /* Build configuration list for PBXNativeTarget "Pods-ScratchCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5905D7A58F7D181F1AA86B1286D8929 /* Debug */,
+				FA07BEC9431C8AC0D7DCE40D0618EDE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E80F536E7338EE418D38206CDF2A8C1F /* Build configuration list for PBXNativeTarget "ScratchCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B7432B80639EADC84B3602877D5E58C /* Debug */,
+				9689D142319A95A6F7D7ECBF3348BBF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

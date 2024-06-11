@@ -1,0 +1,16 @@
+PODS:
+  - ScratchCard (1.1.3)
+
+DEPENDENCIES:
+  - ScratchCard (~> 1.1.3)
+
+SPEC REPOS:
+  trunk:
+    - ScratchCard
+
+SPEC CHECKSUMS:
+  ScratchCard: e5b9f8b9c5f9c197128fc6540cd829473e284fd3
+
+PODFILE CHECKSUM: 20882d9da5d4ccc937831324a714e950b9ecda6e
+
+COCOAPODS: 1.13.0

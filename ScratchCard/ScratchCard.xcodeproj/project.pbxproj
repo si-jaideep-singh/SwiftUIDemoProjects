@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		818153E42C047A5700C2814F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818153E32C047A5700C2814F /* AppDelegate.swift */; };
+		818153E62C047A5700C2814F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818153E52C047A5700C2814F /* SceneDelegate.swift */; };
+		818153E82C047A5700C2814F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818153E72C047A5700C2814F /* ViewController.swift */; };
+		818153ED2C047A5800C2814F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818153EC2C047A5800C2814F /* Assets.xcassets */; };
+		818153F02C047A5800C2814F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 818153EF2C047A5800C2814F /* Base */; };
+		8198F7E92C048FCE007D5B0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818153E92C047A5700C2814F /* Main.storyboard */; };
+		81B8AE2A2C0499E1004144AA /* winning-card.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81B8AE282C0499E1004144AA /* winning-card.jpg */; };
+		81B8AE2B2C0499E1004144AA /* google-scratch-card.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81B8AE292C0499E1004144AA /* google-scratch-card.jpg */; };
+		81B8AE2E2C049A78004144AA /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81B8AE2C2C049A78004144AA /* image.jpg */; };
+		81B8AE2F2C049A78004144AA /* mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B8AE2D2C049A78004144AA /* mask.png */; };
+		81C6F2A22C04820900CE2A82 /* ScratchUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C6F2A02C04820900CE2A82 /* ScratchUIView.swift */; };
+		81C6F2A32C04820900CE2A82 /* ScratchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C6F2A12C04820900CE2A82 /* ScratchView.swift */; };
+		BD83FA071A359D6EB0F5F105 /* Pods_ScratchCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F98BAD3E966E1BCEDE3D76 /* Pods_ScratchCard.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24A0595181FD6DEE573E3D25 /* Pods-ScratchCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScratchCard.release.xcconfig"; path = "Target Support Files/Pods-ScratchCard/Pods-ScratchCard.release.xcconfig"; sourceTree = "<group>"; };
+		37FE1D299B5E01C39A4EEF28 /* Pods-ScratchCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScratchCard.debug.xcconfig"; path = "Target Support Files/Pods-ScratchCard/Pods-ScratchCard.debug.xcconfig"; sourceTree = "<group>"; };
+		818153E02C047A5700C2814F /* ScratchCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScratchCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		818153E32C047A5700C2814F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		818153E52C047A5700C2814F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		818153E72C047A5700C2814F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		818153EA2C047A5700C2814F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		818153EC2C047A5800C2814F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		818153EF2C047A5800C2814F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		818153F12C047A5800C2814F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B8AE282C0499E1004144AA /* winning-card.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "winning-card.jpg"; sourceTree = "<group>"; };
+		81B8AE292C0499E1004144AA /* google-scratch-card.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "google-scratch-card.jpg"; sourceTree = "<group>"; };
+		81B8AE2C2C049A78004144AA /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		81B8AE2D2C049A78004144AA /* mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask.png; sourceTree = "<group>"; };
+		81C6F2A02C04820900CE2A82 /* ScratchUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchUIView.swift; sourceTree = "<group>"; };
+		81C6F2A12C04820900CE2A82 /* ScratchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchView.swift; sourceTree = "<group>"; };
+		99F98BAD3E966E1BCEDE3D76 /* Pods_ScratchCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScratchCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		818153DD2C047A5700C2814F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD83FA071A359D6EB0F5F105 /* Pods_ScratchCard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00A3B90685B973C0EDD859F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99F98BAD3E966E1BCEDE3D76 /* Pods_ScratchCard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		818153D72C047A5700C2814F = {
+			isa = PBXGroup;
+			children = (
+				818153E22C047A5700C2814F /* ScratchCard */,
+				818153E12C047A5700C2814F /* Products */,
+				E25E7E37880264165B3D4BD0 /* Pods */,
+				00A3B90685B973C0EDD859F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		818153E12C047A5700C2814F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				818153E02C047A5700C2814F /* ScratchCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		818153E22C047A5700C2814F /* ScratchCard */ = {
+			isa = PBXGroup;
+			children = (
+				81C6F2A02C04820900CE2A82 /* ScratchUIView.swift */,
+				81C6F2A12C04820900CE2A82 /* ScratchView.swift */,
+				818153E32C047A5700C2814F /* AppDelegate.swift */,
+				818153E52C047A5700C2814F /* SceneDelegate.swift */,
+				818153E72C047A5700C2814F /* ViewController.swift */,
+				81B8AE292C0499E1004144AA /* google-scratch-card.jpg */,
+				81B8AE282C0499E1004144AA /* winning-card.jpg */,
+				818153E92C047A5700C2814F /* Main.storyboard */,
+				818153EC2C047A5800C2814F /* Assets.xcassets */,
+				81B8AE2C2C049A78004144AA /* image.jpg */,
+				81B8AE2D2C049A78004144AA /* mask.png */,
+				818153EE2C047A5800C2814F /* LaunchScreen.storyboard */,
+				818153F12C047A5800C2814F /* Info.plist */,
+			);
+			path = ScratchCard;
+			sourceTree = "<group>";
+		};
+		E25E7E37880264165B3D4BD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37FE1D299B5E01C39A4EEF28 /* Pods-ScratchCard.debug.xcconfig */,
+				24A0595181FD6DEE573E3D25 /* Pods-ScratchCard.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		818153DF2C047A5700C2814F /* ScratchCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 818153F42C047A5800C2814F /* Build configuration list for PBXNativeTarget "ScratchCard" */;
+			buildPhases = (
+				5FA1065E8CEB3A208D3F66D3 /* [CP] Check Pods Manifest.lock */,
+				818153DC2C047A5700C2814F /* Sources */,
+				818153DD2C047A5700C2814F /* Frameworks */,
+				818153DE2C047A5700C2814F /* Resources */,
+				86516EB7A78DCC4079554810 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScratchCard;
+			productName = ScratchCard;
+			productReference = 818153E02C047A5700C2814F /* ScratchCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		818153D82C047A5700C2814F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					818153DF2C047A5700C2814F = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 818153DB2C047A5700C2814F /* Build configuration list for PBXProject "ScratchCard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 818153D72C047A5700C2814F;
+			productRefGroup = 818153E12C047A5700C2814F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				818153DF2C047A5700C2814F /* ScratchCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		818153DE2C047A5700C2814F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B8AE2F2C049A78004144AA /* mask.png in Resources */,
+				81B8AE2A2C0499E1004144AA /* winning-card.jpg in Resources */,
+				8198F7E92C048FCE007D5B0D /* Main.storyboard in Resources */,
+				818153ED2C047A5800C2814F /* Assets.xcassets in Resources */,
+				81B8AE2B2C0499E1004144AA /* google-scratch-card.jpg in Resources */,
+				818153F02C047A5800C2814F /* Base in Resources */,
+				81B8AE2E2C049A78004144AA /* image.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FA1065E8CEB3A208D3F66D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScratchCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86516EB7A78DCC4079554810 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScratchCard/Pods-ScratchCard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScratchCard/Pods-ScratchCard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScratchCard/Pods-ScratchCard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		818153DC2C047A5700C2814F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818153E82C047A5700C2814F /* ViewController.swift in Sources */,
+				81C6F2A32C04820900CE2A82 /* ScratchView.swift in Sources */,
+				818153E42C047A5700C2814F /* AppDelegate.swift in Sources */,
+				818153E62C047A5700C2814F /* SceneDelegate.swift in Sources */,
+				81C6F2A22C04820900CE2A82 /* ScratchUIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		818153E92C047A5700C2814F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				818153EA2C047A5700C2814F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		818153EE2C047A5800C2814F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				818153EF2C047A5800C2814F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		818153F22C047A5800C2814F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		818153F32C047A5800C2814F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		818153F52C047A5800C2814F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37FE1D299B5E01C39A4EEF28 /* Pods-ScratchCard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScratchCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = net.sportzinteractive.ScratchCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		818153F62C047A5800C2814F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24A0595181FD6DEE573E3D25 /* Pods-ScratchCard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScratchCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = net.sportzinteractive.ScratchCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		818153DB2C047A5700C2814F /* Build configuration list for PBXProject "ScratchCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818153F22C047A5800C2814F /* Debug */,
+				818153F32C047A5800C2814F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		818153F42C047A5800C2814F /* Build configuration list for PBXNativeTarget "ScratchCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818153F52C047A5800C2814F /* Debug */,
+				818153F62C047A5800C2814F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 818153D82C047A5700C2814F /* Project object */;
+}
